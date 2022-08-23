@@ -69,7 +69,7 @@ body {
 .menu-bar {
     display: flex;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
     justify-content: flex-end;
     position: absolute;
     top: 30px;
