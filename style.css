@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8ebe9;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    width: 900px;
+    height: 550px;
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px 2px #cf9489cb;
+}
+
+.img-container img {
+    width: 300px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.img-container {
+    position: relative;
+}
+
+.back-button-container {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.back-button-container img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.matter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-bar {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.menu-bar p {
+    font-size: 12px;
+    color: rgb(192, 192, 192);
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-bar p:hover {
+    color: black;
+}
+
+.title-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 90px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.title span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.line {
+    margin-top: 15px;
+    background-color: black;
+    height: 3px;
+    width: 70px;
+}
+
+.sub-title {
+    font-size: 14px;
+    margin: 20px 0 30px 0;
+}
+
+.sub-title span {
+    font-weight: 700;
+}
+
+.info-container {
+    display: flex;
+    gap: 30px;
+}
+
+.info-img-container {
+    position: relative;
+}
+
+.info-img-container img {
+    width: 150px;
+    margin-top: 5px;
+}
+
+
+.play {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    margin: auto;
+    background-image: url("./img/play.svg");
+    border: none;
+    background-position: center;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.info-img-container p {
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.viewall {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.viewall img {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+}
